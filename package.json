@@ -1,7 +1,16 @@
 {
   "name": "hello_redux",
   "version": "0.0.1",
-  "main": "index.js",
+  "devDependencies": {
+    "react-scripts": "^1.1.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.5.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -10,17 +19,5 @@
   },
   "repository": "ssh://git@github.com/iPolyomino/hello_redux.git",
   "author": "iPolyomino <macbookpromacbookpromacbookpro@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-redux": "^5.0.7",
-    "redux": "^3.7.2"
-  },
-  "devDependencies": {
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "react-scripts": "^1.1.4"
-  }
+  "license": "MIT"
 }
